@@ -3,6 +3,29 @@ h1{
 }
 
 
-p{
+
+.div1{
     text-align: center;
+    background:rgb(190, 190, 190); 
+    /* border-radius:30px; */
+    width:500px;
+    height:500px;
+}
+
+
+.div2{
+    text-align: center;
+    background: white; 
+    border-radius:30px;
+    width:360px;
+    height:400px;
+}
+
+
+.div3{
+    text-align: center;
+    background:rgb(255, 255, 255); 
+    border-radius:30px;
+    width:100px;
+    height:100px;
 }
