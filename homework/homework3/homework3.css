@@ -1,40 +1,41 @@
 
-.div1{
-    background:rgb(245, 245, 245); 
-    padding: 10px 15px 10px 15px;
-    margin-top: 20px;
-    /* width:392px; */
-    width:362px;
-    /* height:542px; */
-    height:522px;
-  }
+.head{
+  text-align: center;
+  /* width:362px; */
+  height:20%;
+  background: red;
+}
   
-  .div2{
-  
-    padding: 50px 65px 80px 65px;
-    background: white; 
-    border-radius:40px;
-    width:220px;
-    height:370px;
-  }
-  
-  .div3{
-    margin: 0 auto ;
-    background:rgb(255, 255, 255); 
-    border-radius:30px;
-    width:120px;
-    height:120px;
-  }
-  
-  .div4{
-    padding: 35px 0 10px 0;
-    width:230px;
-    height:220px;
-  }
-  
-  .div4 p{
-    margin:10px 0 ;
-    font-size:112%;
-    color: rgb(105,105,105);
-  }
-  
+.about-me{
+
+  padding: 20px 20px;
+  background: rgba(47, 167, 11, 0.308); 
+  width:35%;
+  /* height:370px; */
+}
+
+.about-me h2{
+  text-decoration: underline;
+}
+
+.skills{
+  padding: 20px 20px;
+  background:rgb(29, 31, 56); 
+  width:35%;
+  /* height:120px; */
+}
+
+.skills h2{
+  text-decoration: underline;
+}
+
+.awards{
+  padding: 20px 20px;
+  background:rgb(204, 99, 152); 
+  width:35%;
+  /* height:120px; */
+}
+
+.awards h2{
+  text-decoration: underline;
+}
