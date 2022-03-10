@@ -1,4 +1,4 @@
-.description-outer{
+.wrapper{
   /* padding: 10px 40px 10px 10px; */
   background-color: #aaa;
   /* display: inline-block; */
@@ -9,12 +9,12 @@
 
 .head{
   text-align: center;
-  /* width:362px; */
+  width: 595px;
   height:200px;
   background: red;
 }
 
-.headshot{
+.avatar{
   background: rgb(179, 53, 168);
   border-radius:50%;
   width: 100px;
@@ -50,12 +50,13 @@
   height:100px;
 }
 
-.description-outer-left{
+.description-outer{
   /* padding: 10px 40px 10px 10px; */
   background-color: #bbb;
   display: inline-block;
   width: 297.5px;
   height: 542px;
+  vertical-align: top;
 }
 
 .description-outer-right{
@@ -64,6 +65,7 @@
   display: inline-block;
   width: 297.5px;
   height: 542px;
+  vertical-align: top;
 }
 
 
