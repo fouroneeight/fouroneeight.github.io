@@ -10,9 +10,10 @@
 .head{
   display: flex;
   justify-content: center;
+  background-image: url(./head.JPG);
   width: 595px;
   height:200px;
-  background: red;
+  /* background: red; */
 }
 
 .avatar-round{
