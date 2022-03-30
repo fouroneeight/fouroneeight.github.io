@@ -8,7 +8,8 @@
 }
 
 .head{
-  text-align: center;
+  display: flex;
+  justify-content: center;
   width: 595px;
   height:200px;
   background: red;
@@ -16,6 +17,9 @@
 
 .avatar{
   /* background: rgb(179, 53, 168); */
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
   border-radius:50%;
   width: 100px;
   height: 100px;
@@ -77,19 +81,20 @@
   height:120px;
   /* text-align: center; */
 }
-.about-me h2{
-  text-decoration: underline;
-}
+
 
 .skills{
   /* display: inline-block; */
   padding: 15px 40px 15px 15px;
   background: rgba(40, 119, 70, 0.308); 
   width:242.5px;
-  height:220px;
+  height:360px;
 }
-.skills h2{
-  text-decoration: underline;
+
+.percentage{
+  border-style: solid;
+  border-width: 3px;
+  /* display: inline; */
 }
 
 .awards{
@@ -100,10 +105,6 @@
   height:110px;
 }
 
-.awards h2{
-  text-decoration: underline;
-}
-
 .education{
   /* display: inline-block; */
   padding: 15px 15px 15px 0;
@@ -111,23 +112,15 @@
   width: 282.5px;
   height: 152px;
 }
-.education h2{
-  text-decoration: underline;
-}
-
 
 .experience{
   /* display: inline-block; */
   padding: 15px 15px 15px 0;
   background: rgba(31, 81, 138, 0.308); 
   width: 282.5px;
-  height:150px;
+  height:330px;
   /* margin-top: -100px; */
 
-}
-
-.experience h2{
-  text-decoration: underline;
 }
 
 .hobbies-interests{
