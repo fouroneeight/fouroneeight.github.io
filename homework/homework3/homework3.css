@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   background-image: url(./head.JPG);
+  background-size: cover;
   width: 595px;
   height:200px;
   /* background: red; */
