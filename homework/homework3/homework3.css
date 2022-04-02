@@ -1,10 +1,11 @@
 .wrapper{
-  /* padding: 10px 40px 10px 10px; */
   background-color: #aaa;
-  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
   width: 595px;
   height: 842px;
   position: relative;
+
 }
 
 .head{
@@ -14,7 +15,6 @@
   background-size: cover;
   width: 595px;
   height:200px;
-  /* background: red; */
 }
 
 .avatar-round{
@@ -22,55 +22,65 @@
 }
 
 .avatar{
-  /* background: rgb(179, 53, 168); */
   border-style: solid;
   border-width: 4px;
   border-color: white;
   border-radius:50%;
+  overflow: hidden;
   width: 100px;
   height: 100px;
   position: absolute;
   top: 150px;
-  /* right: 40%; */
   left: 50%;
-  /* height: 50px; */
   transform: translateX(-50%);
 }
 
 .information-outer{
-  /* padding: 20px 20px; */
-  /* background: rgba(151, 153, 19, 0.308);  */
+  display: flex;
+  flex-direction: row;
   width:595px;
-  height:100px;
+  height:75px;
 }
 
+.information-outer-p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  font-size: 12px;
+
+}
+
+
+.information-outer-p:first-child{
+  border-bottom: 1px black solid;
+}
 
 .information-left{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   padding: 0px 80px 0px 30px;
-  /* background: rgba(197, 199, 73, 0.308);  */
+  background: rgba(197, 199, 73, 0.308); 
   width: 187.5px;
-  height:100px;
+  height:100%;
 }
 .information-right{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   padding: 0px 30px 0px 80px;
-  /* background: rgba(209, 165, 115, 0.308);  */
+  background: rgba(209, 165, 115, 0.308); 
   width: 187.5px;
-  height:100px;
+  height:100%;
 }
 
 .description-outer{
-  /* padding: 10px 40px 10px 10px; */
-  /* background-color: #bbb; */
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 297.5px;
-  height: 542px;
   vertical-align: top;
 }
 
 .description-outer-right{
-  /* padding: 10px 10px 10px 0; */
   background-color: #ccc;
   display: inline-block;
   width: 297.5px;
@@ -80,17 +90,14 @@
 
 
 .about-me{
-  /* display: inline-block; */
+  flex: 1;
   padding: 15px 40px 15px 15px;
   background: rgba(47, 167, 11, 0.308); 
   width:242.5px;
-  height:120px;
-  /* text-align: center; */
 }
 
 
 .skills{
-  /* display: inline-block; */
   padding: 15px 40px 15px 15px;
   background: rgba(40, 119, 70, 0.308); 
   width:242.5px;
@@ -100,11 +107,9 @@
 .percentage{
   border-style: solid;
   border-width: 3px;
-  /* display: inline; */
 }
 
 .awards{
-  /* display: inline-block; */
   padding: 15px 40px 15px 15px;
   background: rgba(109, 175, 88, 0.308); 
   width:242.5px;
@@ -112,7 +117,6 @@
 }
 
 .education{
-  /* display: inline-block; */
   padding: 15px 15px 15px 0;
   background: rgba(90, 143, 204, 0.308); 
   width: 282.5px;
@@ -120,17 +124,13 @@
 }
 
 .experience{
-  /* display: inline-block; */
   padding: 15px 15px 15px 0;
   background: rgba(31, 81, 138, 0.308); 
   width: 282.5px;
-  height:330px;
-  /* margin-top: -100px; */
-
+  flex: 1;
 }
 
 .hobbies-interests{
-  /* display: inline-block; */
   padding: 15px 15px 15px 0;
   background: rgba(4, 26, 51, 0.308); 
   width:282.5px;
